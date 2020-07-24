@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+  background-image: url(./assets/warm.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+ height: 50em;
+  transition: 0.4 ease;
+  
+}
+
+.App.warm {
+  background-image: url(./assets/cold1.jpg);
+}
+
+.main {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75));
+  padding: 25px;
+}
+
+.location-box .location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.1);
+  
+}
+
+.location-box .date {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 2px 2px rgba(50, 50, 70, 0.1);
+}
+
+.weather-box {
+  text-align: center;
+}
+
+.weather-box .temp {
+  position: relative;
+  display: inline-flex;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+
+  padding: 15px 25px;
+  color: #FFF;
+  font-size: 60px;
+  font-weight: 500;
+
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.2);
+  text-align: center;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.weather-box .weather{
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.3);
+}
+
+
+

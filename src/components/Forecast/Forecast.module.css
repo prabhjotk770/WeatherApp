@@ -1,0 +1,24 @@
+
+
+
+.textInput {
+    border: 1px solid;
+    border-color: aliceblue;
+    padding: 5px;
+    display:block;
+    margin: 0 auto;
+    font-size: large;
+    
+}
+
+.textInput:focus {
+    outline: none;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px rgb(50, 100, 153);
+}
+
+.Radio {
+    font-size: small;
+    
+}
+
